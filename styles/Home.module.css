@@ -37,8 +37,34 @@
 .img{
   margin: 0 auto;
   width:150px;
-  /* height:300px; */
-  /* overflow: hidden; */
+}
+.imgReview{
+  margin: 0 auto;
+  width:100%;
+  border-radius: 10px;
+}
+.boxReview:hover{
+  margin-top: 0px;
+  transition: 0.4s;
+}
+.boxReview p{
+  height: 50px;
+  overflow: hidden;
+}
+
+.boxReview{
+  height:310px;
+  text-align:left;
+  margin-top: 10px;
+  border: 1px solid #8080804d;
+  border-radius: 10px;
+  padding: 20px;
+  background-color:#8080800d;
+  box-shadow: 5px 5px 5px gray;
+}
+.boxReview a{
+  text-decoration: none;
+  color: black
 }
 
 .home h1{

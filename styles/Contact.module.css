@@ -1,0 +1,42 @@
+.Contact{
+    /* height: 86vh; */
+    background-image: none;
+}
+.Contact input{
+    width: 220px;
+    height: 45px;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.Contact textarea{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    /* background-color: #293043; */
+    border: 1px solid black;
+}
+.Contact h1{
+    font-size: 45px;
+}
+.media img{
+    width: 33px;
+    /* border-radius:20px; */
+    margin: 9px;
+    /* background-color: white; */
+}
+
+@media only screen and (max-width: 600px){
+    .Contact{
+        height: auto;
+        /* background-color: #0B1829; */
+    }
+    .Contact input{
+        width: 90%;
+    }
+    .Contact textarea{
+        width: 90%;
+    }
+}
